@@ -1,0 +1,42 @@
+br-095314d352ec: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.19.0.1  netmask 255.255.0.0  broadcast 172.19.255.255
+        ether 02:42:b5:cc:ff:f0  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+br-f2ba9080d4fb: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.18.0.1  netmask 255.255.0.0  broadcast 172.18.255.255
+        ether 02:42:06:77:6d:fb  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        ether 02:42:ba:ea:40:cc  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1492
+        inet 172.25.162.2  netmask 255.255.240.0  broadcast 172.25.175.255
+        inet6 fe80::215:5dff:fecb:6bb2  prefixlen 64  scopeid 0x20<link>
+        ether 00:15:5d:cb:6b:b2  txqueuelen 1000  (Ethernet)
+        RX packets 1390  bytes 328676 (328.6 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1114  bytes 192178 (192.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 12654  bytes 18972988 (18.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12654  bytes 18972988 (18.9 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
