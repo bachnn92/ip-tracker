@@ -6,5 +6,5 @@ git pull -f
 git add .
 git commit -m "Track logs $(date)"
 git push -f
-echo "Mock Track successfully"
+echo "IP update successfully"
 cd 
